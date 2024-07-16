@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="menu">
+        <nav class="menu_nav">
+            <img src="assets/img/Logo.png">
+        </nav>
+    </header>
+    <main class="contenedor">
+        <section>
+            <textarea class="contenedor_encriptador text-area" id="textArea" name="seccion_encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            
+            <div class="contenedor_btn">
+                <button onclick="btnEncriptar()" class="contenedor_btn_encriptador">Encriptar</button>
+                <button onclick="btnDesencriptar()" class="contenedor_btn_desencriptador">Desencriptar</button>
+            </div>
+        </section>
+
+        <div>
+            <textarea class="contenedor_desencriptador mensaje" id="mensaje" name="" placeholder="Texto encriptado/desencriptado"></textarea>
+        </div>
+    </main>
+    
+</body>
+<script src="main.js"></script>
+</html>
